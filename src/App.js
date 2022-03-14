@@ -1,5 +1,7 @@
 import './App.css';
 import Test from "./components/Test"
+import Employee from './components/Employee'
+import Accordion from './components/Accordion'
 
 function App() {
   return (
@@ -13,19 +15,47 @@ function App() {
            */
         }
 
-        <Test name="jaemin" city="Jeonju" fontColor="babyblue"
-        avatar="https://www.google.com/url?sa=i&url=https%3A%2F%2Feditornews.pikiran-rakyat.com%2Fentertainment%2Fpr-1312417293%2Fseperti-berjodoh-jaemin-nct-dan-penggemar-miliki-hobi-yang-sama&psig=AOvVaw3qZJalQSuiE_54-JaYcv67&ust=1647291065109000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICAysj7w_YCFQAAAAAdAAAAABAJ">
-          Jaemin cakep sekali 
+        {/* <Test name="jaemin" city="Jeonju" fontColor="babyblue"
+          avatar="https://smktelkom-mlg.sch.id/assets/frontend/images/image1001.png">
+          Jaemin cakep sekali
           <button>Na Jaemin</button>
         </Test>
         <Test name="baekhyun" city="bucheon" fontColor="babyblue"
-        avatar="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kompasiana.com%2Fohimeldaa%2F5eba5f3bd541df72b47a43c2%2Fbaekhyun-exo-bertambah-usia-semakin-menggemaskan&psig=AOvVaw1lQOX5EoxnBhS6hEvOrhFb&ust=1647291148088000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLDm-_D7w_YCFQAAAAAdAAAAABAP">
-          Love sekali 
+          avatar="https://smktelkom-mlg.sch.id/assets/upload/image/testi/img3.png">
+          Love sekali
           <button>Byun Baekhyun</button>
-        </Test>
+        </Test> */}
       </div>
 
-      <div></div>
+
+
+
+
+      <div className='accordion' id='accordion1'>
+        <Accordion id="item1" header="Header 1" parent="#accordion1">
+          <Employee
+            name="Undertaker"
+            birthday="March 21th 2022"
+            gender="Male"
+            email="undertaker@smktelkom-mlg.sch.id"
+            contact="091 765"
+            division="Vice President"
+            image="https://smktelkom-mlg.sch.id/assets/upload/image/testi/img3.png"
+          />
+        </Accordion>
+        <Accordion id="item2" header="Header 2" parent="#accordion1">
+          <Employee
+            name="Jack Ma"
+            birthday="March 14th 2022"
+            gender="Male"
+            email="jack@smktelkom-mlg.sch.id"
+            contact="091 765"
+            division="Manager"
+            image="https://smktelkom-mlg.sch.id/assets/upload/image/testi/img2.png"
+          />
+        </Accordion>
+        
+      </div>
     </div>
   );
 }
