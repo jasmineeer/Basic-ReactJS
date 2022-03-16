@@ -2,6 +2,7 @@ import './App.css';
 import Test from "./components/Test"
 import Employee from './components/Employee'
 import Accordion from './components/Accordion'
+import Balok from './pages/Balok';
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
 
 
 
-      <div className='accordion' id='accordion1'>
+      {/* <div className='accordion' id='accordion1'>
         <Accordion id="item1" header="Header 1" parent="#accordion1">
           <Employee
             name="Undertaker"
@@ -55,7 +56,12 @@ function App() {
           />
         </Accordion>
         
-      </div>
+      </div> */}
+
+      {/* Tampilkan balok*/}
+        <Balok title="Lemari"/>
+      
+
     </div>
   );
 }
