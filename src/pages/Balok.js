@@ -1,12 +1,11 @@
 /**
- * STATE: Tempat penyimpanan data(variabel) yang hanya berlaku di
- * lingkup satu komponen saja
+ * STATE: Tempat penyimpanan data(variabel) yang hanya berlaku di lingkup satu komponen saja
  * Komponen yang memanfaatkan state di dalamnya disebut komponen statefful,
- * Sebaliknya, komponen yg tidak memanfaatkan state di dalamnya disebut
- * komponen stateless
+ * Sebaliknya, komponen yg tidak memanfaatkan state di dalamnya disebut komponen stateless
  */
 
 import { useState } from "react";
+
 function Balok(props) {
     // prepare panjang, lebar, tinggi, volume
     // mutator method -> untuk mengubah data pada variable private
