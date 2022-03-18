@@ -14,6 +14,14 @@ For example:
 
 Then, folder my-react will built
 
+## Using Bootstrap 5
+
+To install bootstrap, you can run:
+
+### `npm install bootstrap`
+
+Then, bootstrap will be installed in your React folder
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
