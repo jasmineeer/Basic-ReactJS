@@ -1,3 +1,19 @@
+## How To Start Using React App
+
+In the command prompt, you can run:
+
+### `npm install -g create-react-app`
+
+To create React App file, run:
+
+### `create-react-app nama_project`
+
+For example:
+
+### `create-react-app my-react`
+
+Then, folder my-react will built
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
